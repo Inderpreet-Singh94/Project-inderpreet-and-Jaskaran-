@@ -1,0 +1,172 @@
+/*Font imported from google*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/*CSS for full screen starts here*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+}
+
+/*CSS for body starts here*/
+body {
+    background-color: #361818;
+}
+
+/*CSS for header starts here*/
+nav {
+    background-color: white;
+}
+
+nav{
+    height: 150px;
+    width: 100%;
+}
+
+span {
+    float: left;
+}
+
+span>img {
+    border: 1px sold black;
+    width: 230px;
+    height: 150px;
+}
+
+a {
+    text-decoration-style: none;
+    color: black;
+}
+
+ul {
+    float: right;
+}
+
+li {
+    display: inline-block;
+    width: 120px;
+    padding: 20px;
+    border: 2px;
+    text-align: center;
+    font-size: 0.8cm;
+}
+/*CSS for header ends here*/
+/*CSS for caption starts here*/
+caption {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+/*CSS for caption ends here*/
+/*CSS for section starts here*/
+section {
+    width: 90%;
+    height: 330px;
+    margin-left: 120px;
+    background-color: #361818;
+}
+/*CSS for video starts here*/
+section>iframe {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 3%;
+}
+/*CSS for video ends here*/
+/*CSS for aside starts here*/
+aside {
+    width: 90%;
+    height: 1000px;
+}
+/*CSS for table starts here*/
+aside>table {
+    margin: 0 auto;
+    width: 800px;
+    height: 900px;
+    background-color: #361818;
+}
+
+thead,
+tfoot {
+    font-family: Cambria, serif;
+    font-size: 30px;
+    color: white;
+}
+
+th,
+td {
+
+    color: white;
+}
+
+tbody,
+tr {
+    line-height: 3em;
+}
+
+td:last-of-type {
+    text-align: center;
+}
+
+tfoot>tr>td:nth-child {
+    font-size: 4em;
+}
+/*CSS for table ends here*/
+/*CSS for aside ends here*/
+/*CSS for section ends here*/
+
+/*CSS for footer starts here*/
+footer {
+    margin-top: 2%;
+    background-color: white;
+    height: 280px;
+    text-align: center;
+    font-size: 22px;
+}
+/*CSS for footer ends here*/
+/*CSS for body ends here*/
+/*CSS for full screen ends here*/
+
+
+/*CSS for 768px starts here*/
+@media only screen and(max-width:900px) {
+/*CSS for video starts here*/
+    iframe,
+    video {
+        width: 560px;
+        height: 315px;
+    }
+}
+/*CSS for video ends here*/
+@media only screen and (max-width: 768px) {
+    /*CSS for 768px starts here*/
+    /*CSS for header starts here*/
+    span>img {
+        width: 130px;
+    }
+    li {
+        width: 100px;
+    }
+    /*CSS for header ends here*/
+/*CSS for section starts here*/
+    section {
+        width: 75%;
+        margin-left: 80px;
+    }
+
+    /*CSS for table starts here*/
+    aside>table {
+        width: 715px;
+    }
+}
+/*CSS for table ends here*/
+/*CSS for section ends here*/
+/*CSS for 768px ends here*/
+
+/*CSS for 976px starts here*/
+@media only screen and (max-width: 976px) {
+    section {
+        width: 75%;
+    }
+}
+/*CSS for 976px ends here*/

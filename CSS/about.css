@@ -1,0 +1,202 @@
+/*Font imported from google*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/*CSS for full screen starts here*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+}
+
+/*CSS for body starts here*/
+body {
+    background-color: #361818;
+}
+
+/*CSS for header starts here*/
+nav {
+    background-color: white;
+    height: 150px;
+    width: 100%;
+}
+
+span {
+    float: left;
+}
+
+span>img {
+    border: 1px sold black;
+    width: 230px;
+    height: 150px;
+}
+
+a {
+    text-decoration-style: none;
+    color: black;
+}
+
+ul {
+    float: right;
+}
+
+li {
+    display: inline-block;
+    width: 120px;
+    padding: 20px;
+    border: 2px;
+    text-align: center;
+    font-size: 0.8cm;
+}
+/*CSS for header ends here*/
+
+/*CSS for section starts here*/
+section {
+    width: 90%;
+    height: 800px;
+    margin-left: 120px;
+    background-color: #361818;
+}
+
+/*CSS for article starts here*/
+section>article{
+    width: 45%;
+    height: 590px;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+section>article>p{
+    color:white;
+}
+/*CSS for article ends here*/
+
+/*CSS for aside starts here*/
+section>aside{
+    width: 45%;
+    height: 590px;
+    /*background-color: red;*/
+    margin-left:670px;
+    margin-top: -590px;
+
+}
+
+/*CSS for image starts here*/
+section>aside>img{
+    width:100%;
+    height: 590px;
+}
+/*CSS for image ends here*/
+/*CSS for aside ends here*/
+/*CSS for section ends here*/
+
+/*CSS for footer starts here*/
+footer {
+    margin-top: 2%;
+    background-color: white;
+    height: 280px;
+    text-align: center;
+    font-size: 22px;
+}
+/*CSS for footer ends here*/
+/*CSS for body ends here*/
+/*CSS for full screen ends here*/
+
+
+/*CSS for 768px starts here*/
+@media only screen and (max-width: 768px) {
+
+    /*CSS for body starts here*/
+    body {        
+        width: 100%;
+    }
+
+    /*CSS for header starts here*/
+     span>img {
+        border: 1px sold black;
+        width: 130px;
+        height: 150px;
+    }
+
+    li {
+        display: inline-block;
+        width: 100px;
+        padding: 20px;
+        border: 2px;
+        text-align: center;
+        font-size: 0.8cm;
+    }
+    /*CSS for header ends here*/
+
+    /*CSS for section starts here*/
+    section {
+        width: 88%;
+        height: 2495px;
+        margin-left: 90px;
+        background-color: #361818;
+
+    }
+
+    /*CSS for article starts here*/
+    section>article {
+        width: 35%;
+        height: 590px;
+        font-size: 25px;
+        margin-top: 40px;
+    }
+    /*CSS for article ends here*/
+
+    /*CSS for aside starts here*/
+    section>aside {
+        width: 45%;
+        height: 590px;
+        margin-left: 340px;
+        margin-top: -590px;
+    }
+    /*CSS for aside ends here*/
+    /*CSS for section ends here*/
+
+    /*CSS for footer starts here*/
+    footer {
+        margin-top: 2%;
+        background-color: white;
+        height: 280px;
+        text-align: center;
+        font-size: 22px;
+        width: 100%;
+    }
+    /*CSS for footer ends here*/
+    /*CSS for body starts here*/
+}
+/*CSS for 768px ends here*/
+
+/*CSS for 976px starts here*/
+@media only screen and (max-width: 976px) {
+    /*CSS for section starts here*/
+    section {
+        width: 90%;
+        height: 1400px;
+        margin-left: 90px;
+        background-color: #361818;
+    }
+
+    /*CSS for article starts here*/
+    section>article{
+        width: 35%;
+        height: 590px;
+        font-size: 25px;
+        margin-top: 40px;
+    }
+    /*CSS for article ends here*/
+
+    /*CSS for aside starts here*/
+    section>aside{
+        width: 45%;
+        height: 590px;
+        /*background-color: red;*/
+        margin-left:406px;
+        margin-top: -590px;
+    }
+    /*CSS for aside ends here*/
+    /*CSS for section starts here*/
+}
+/*CSS for 976px ends here*/

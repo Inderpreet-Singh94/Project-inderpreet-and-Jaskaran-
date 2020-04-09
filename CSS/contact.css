@@ -1,0 +1,257 @@
+/*Font imported from google*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/*CSS for full screen starts here*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+}
+
+/*CSS for body starts here*/
+body {
+    background-color: #361818;
+}
+
+/*CSS for header starts here*/
+nav {
+    background-color: white;
+    height: 150px;
+    width: 100%;
+}
+span {
+    float: left;
+}
+span>img {
+    border: 1px sold black;
+    width: 230px;
+    height: 150px;
+}
+a {
+    text-decoration-style: none;
+    color: black;
+}
+ul {
+    float: right;
+}
+li {
+    display: inline-block;
+    width: 120px;
+    padding: 20px;
+    border: 2px;
+    text-align: center;
+    font-size: 0.8cm;
+}
+/*CSS for header ends here*/
+
+/*CSS for section starts here*/
+section {
+    width: 90%;
+    height: 800px;
+    margin-left: 120px;
+    background-color: #361818;
+    margin-top: 2em;
+}
+
+h2 {
+    color: white;
+    margin-left: 450px;
+    text-shadow: 1px 1px black;
+    font-size: 1.8cm;
+}
+/*CSS for article starts here*/
+article {
+    width: 50%;
+    height: 550px;
+    font-size: 1.5em;
+    margin-top: 3em;
+}
+/*CSS for article ends here*/
+
+/*CSS for form starts here*/
+form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+fieldset:first-child {
+    text-align: left;
+    padding: 5px;
+    background-color: white;
+}
+
+fieldset:nth-child(2) {
+    background-color: white;
+}
+
+fieldset:nth-child(3) {
+    background-color: white;
+}
+
+legend {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    font-weight: 700;
+}
+
+::placeholder {
+    font-family: monospace;
+}
+
+button {
+    background-color: white;
+    color: black;
+    font-size: 1.2em;
+    padding: 5px 10px;
+}
+
+input[type=text] {
+    width: 60%;
+    padding: 5px;
+}
+/*CSS for form ends here*/
+
+/*CSS for aside starts here*/
+section>aside {
+    width: 40%;
+    height: 530px;
+    /*background-color: aquamarine;*/
+    display: flex;
+    margin: 0 auto;
+    margin-top: -540px;
+    margin-right: 70px;
+}
+
+aside>video {
+    width: 100%;
+    height: 530px;
+}
+/*CSS for aside ends here*/
+/*CSS for section ends here*/
+/*CSS for footer starts here*/
+footer {
+    margin-top: 2%;
+    background-color: white;
+    height: 280px;
+    text-align: center;
+    font-size: 22px;
+}
+/*CSS for footer ends here*/
+/*CSS for body ends here*/
+/*CSS for full screen ends here*/
+
+
+/*CSS for 768px starts here*/
+@media only screen and (max-width: 768px) {
+    /*CSS for header starts here*/
+    body {
+        background-color: #361818;
+        width: 90%;
+    }
+
+    nav {
+        background-color: white;
+        height: 150px;
+        width: 111%;
+
+    }
+
+    span>img {
+        border: 1px sold black;
+        width: 130px;
+        height: 150px;
+    }
+
+    li {
+        display: inline-block;
+        width: 100px;
+        padding: 20px;
+        border: 2px;
+        text-align: center;
+        font-size: 0.8cm;
+    }
+/*CSS for header ends here*/
+
+/*CSS for section starts here*/
+    section {
+        width: 90%;
+        height: 870px;
+        background-color: #361818;
+        margin-top: 2em;
+    }
+
+    h2 {
+        color: white;
+        margin-left: 170px;
+        text-shadow: 1px 1px black;
+        font-size: 1.8cm;
+    }
+
+    article {
+        width: 75%;
+        margin-left: 5%;
+        height: 550px;
+        font-size: 1.5em;
+        margin-top: 3em;
+    }
+ /*CSS for section ends here*/
+
+/*CSS for form starts here*/
+    form {
+        width: 70%;
+        margin-right: 5%;
+        margin: 0;
+    }
+
+    ::placeholder {
+        font-family: monospace;
+        font-size: 10px;
+    }
+/*CSS for form ends here*/
+
+/*CSS for image starts here*/
+    section>aside {
+        width: 50%;
+        height: 530px;
+        /*background-color: aquamarine;*/
+        display: flex;
+        margin: 0 auto;
+        margin-top: -540px;
+        margin-right: -100px;
+    }
+/*CSS for image ends here*/
+
+/*CSS for footer starts here*/
+    footer {
+        margin-top: 2%;
+        background-color: white;
+        height: 280px;
+        text-align: center;
+        font-size: 22px;
+        width: 111%;
+    }
+}
+/*CSS for footer ends here*/
+
+/*CSS for 768px ends here*/
+
+/*CSS for 976px starts here*/
+@media only screen and (max-width: 976px) {
+    /*CSS for section starts here*/
+    section {
+        width: 90%;
+        height: 860px;
+        background-color: #361818;
+        margin-top: 2em;
+    }
+
+    h2 {
+        color: white;
+        margin-left: 350px;
+        text-shadow: 1px 1px black;
+        font-size: 1.8cm;
+    } 
+}
+/*CSS for section ends here*/
+/*CSS for 976px ends here*/
